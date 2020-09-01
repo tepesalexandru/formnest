@@ -90,7 +90,7 @@ class Current extends Component {
         })}
           className={`font-bold text-base md:text-xl py-2 px-4 md:py-4 md:px-8 bg-white focus:outline-none focus:shadow-outline border-r border-dGreen ${leftBorder} ${rightBorder} ${selected}`}
         >
-          {i}
+          {i + 1}
         </button>
       );
     }

@@ -67,10 +67,11 @@ class EditForm extends Component {
                 <span className="icon-trash text-xl text-pRed" />
                 </Link>
               </button>
-              
+              <Link to="/answer/start">
               <button className="tracking-wider focus:outline-none focus:shadow-outline text-pGray font-bold py-2 px-4 bg-grdBlue rounded">
                 Repondre
               </button>
+              </Link>
             </div>
           </nav>
         </header>
